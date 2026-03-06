@@ -44,6 +44,12 @@ export default function Footer() {
           </ul>
         </div>
 
+            <li>
+  <a href="/terms" className="hover:text-white">
+    Terms & Conditions
+  </a>
+</li>
+
 
         {/* Contact */}
         <div>
