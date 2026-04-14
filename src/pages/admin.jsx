@@ -157,6 +157,18 @@ export default function Admin() {
       {/* ADD PRODUCT */}
       <div className="bg-white p-6 rounded-xl shadow-md mb-10 space-y-4">
 
+        <select
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+          className="w-full border p-2 rounded"
+        >
+          <option value="tumblers">Tumblers</option>
+          <option value="mugs">Mugs</option>
+          <option value="bottles">Bottles</option>
+          <option value="pillows">Pillows</option>
+          <option value="snowglobes">Snow Globes</option>
+        </select>
+
         <input
           type="text"
           placeholder="Product Name"
@@ -187,18 +199,6 @@ export default function Admin() {
           onChange={(e) => setImageUrl(e.target.value)}
           className="w-full border p-2 rounded"
         />
-
-        <select
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
-          className="w-full border p-2 rounded"
-        >
-          <option value="tumblers">Tumblers</option>
-          <option value="mugs">Mugs</option>
-          <option value="bottles">Bottles</option>
-          <option value="pillows">Pillows</option>
-          <option value="snowglobes">Snow Globes</option>
-        </select>
 
         <button onClick={handleAddProduct} className="btn-primary">
           Add Product

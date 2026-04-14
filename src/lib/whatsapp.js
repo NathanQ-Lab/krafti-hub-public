@@ -3,13 +3,13 @@ export function createWhatsAppLink(product) {
 
   const message = `Hi, I would like to place an order:
 
-🛍️ Product: ${product.name}
-💰 Price: R${product.price}
+Product: ${product.name}
+Price: R${product.price}
 
-✏️ Custom Details:
+Custom Details:
 (Please enter your name/design here)
 
-Thank you 😊`;
+Thank you`;
 
   const encodedMessage = encodeURIComponent(message);
 
