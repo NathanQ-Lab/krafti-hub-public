@@ -6,47 +6,49 @@ export default function About() {
     <>
       <Navbar />
 
-      {/* About Section */}
-      <section className="max-w-5xl mx-auto px-6 py-20">
+      {/* 💖 About Section */}
+      <section className="section-pink py-20">
+        <div className="max-w-5xl mx-auto px-6 text-center">
 
-        <h1 className="text-4xl font-bold mb-10 text-center">
-          About Krafti Hub
-        </h1>
+          <h1 className="text-4xl font-bold mb-10">
+            About Krafti Hub 💖
+          </h1>
 
-        <div className="space-y-6 text-gray-700 text-lg">
+          <div className="space-y-6 text-gray-700 text-lg max-w-3xl mx-auto">
 
-          <p>
-            Krafti Hub is a small custom gift business focused on creating
-            personalised products that make every moment special.
-            From custom tumblers and mugs to clothing and personalised
-            home gifts, each product is made with care and attention
-            to detail.
-          </p>
+            <p>
+              Krafti Hub is a small custom gift business focused on creating
+              personalised products that make every moment special.
+              From custom tumblers and mugs to clothing and personalised
+              home gifts, each product is made with care and attention
+              to detail.
+            </p>
 
-          <p>
-            Whether you're celebrating a birthday, anniversary,
-            graduation or any special occasion, our goal is to help
-            turn meaningful ideas into beautiful personalised gifts.
-          </p>
+            <p>
+              Whether you're celebrating a birthday, anniversary,
+              graduation or any special occasion, our goal is to help
+              turn meaningful ideas into beautiful personalised gifts.
+            </p>
 
-          <p>
-            Every order is handled with care, and in many cases a design
-            preview is sent to customers before printing to make sure
-            everything looks perfect.
-          </p>
+            <p>
+              Every order is handled with care, and in many cases a design
+              preview is sent to customers before printing to make sure
+              everything looks perfect.
+            </p>
+
+          </div>
 
         </div>
-
       </section>
 
 
-      {/* Meet Our Krafti Queen */}
-      <section className="bg-[#F9F5F6] py-20">
+      {/* 🤍 Meet Our Krafti Queen */}
+      <section className="bg-white py-20">
 
         <div className="max-w-6xl mx-auto px-6">
 
-          <h2 className="text-3xl font-bold mb-12 text-center">
-            Meet Our Krafti Queen
+          <h2 className="section-title text-2xl mb-12 text-center">
+            Meet Our Krafti Queen 💖
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -86,12 +88,12 @@ export default function About() {
       </section>
 
 
-      {/* How Ordering Works */}
-      <section className="py-20">
+      {/* 💖 How Ordering Works */}
+      <section className="section-pink py-20">
 
         <div className="max-w-6xl mx-auto px-6 text-center">
 
-          <h2 className="text-3xl font-bold mb-12">
+          <h2 className="section-title text-2xl mb-12">
             How Ordering Works
           </h2>
 

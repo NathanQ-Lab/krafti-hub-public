@@ -68,7 +68,7 @@ export default function Footer() {
             </li>
 
             <li>
-              Delivery available via PUDO
+              Delivery available via PUDO & Courier
             </li>
 
           </ul>
