@@ -9,17 +9,15 @@ export default function CategorySection({ category }) {
         {category.name}
       </h3>
 
-      {/* ✨ Pink underline (brand touch) */}
+      {/* ✨ Pink underline */}
       <div className="w-12 h-[3px] bg-[var(--primary-pink)] mb-6 rounded"></div>
 
       {category.products.length === 0 ? (
         <p className="text-gray-500">No products yet.</p>
       ) : (
-        <div className="flex gap-6 overflow-x-auto pb-2 scrollbar-hide">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {category.products.map((product) => (
-            <div key={product.id} className="min-w-[260px]">
-              <ProductCard product={product} />
-            </div>
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       )}
